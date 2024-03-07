@@ -1,0 +1,24 @@
+{
+    "name": "pixelcreart/yii2-cart",
+    "description": "PHP 8.1+ Cart Module for Yii2",
+    "keywords": ["yii2", "cart", "e-commerce", "php8"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Manuel Avelar",
+            "email": "me@mavelar.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "php" : ">=8.1.0"
+    },
+    "require-dev" : {
+        "php" : ">=8.1.0",
+        "codeception/codeception": "~5.0"
+    },
+    "autoload": {
+        "psr-4": { "pixelcreart\\cart\\": "src" }
+    }
+}
